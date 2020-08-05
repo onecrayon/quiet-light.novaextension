@@ -3,6 +3,7 @@
     "name": "Quiet Light",
     "vendor": "One Crayon",
     "description": "Light, peaceful coding",
-    "version": "0.1.0",
+    "version": "0.1.1",
+    "bugs": "https://github.com/onecrayon/quiet-light.novaextension/issues",
     "categories": ["themes"]
 }
