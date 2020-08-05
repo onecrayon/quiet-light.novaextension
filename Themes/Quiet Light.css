@@ -1,0 +1,238 @@
+meta {
+    -theme-interface-style: light;
+    -theme-vibrancy: none;
+    -theme-accent-color: auto;
+}
+
+
+/*
+ * Window styles
+ */
+meta.window {
+    background-color: #f2f2f2;
+    border-color: #aaa;
+}
+meta.titlebar {
+    color: #333;
+    background: linear-gradient(#f5f5f5, #fff);
+    border-color: #aaa;
+}
+meta.titlebar.inactive {
+    background-color: #f5f5f5;
+}
+
+/*
+ * Document styles
+ */
+meta.document {
+    background-color: #f5f5f5;
+    border-color: #aaa;
+}
+
+/* Text */
+meta.text {
+    color: #333;
+}
+meta.text.invisible {
+    color: #dcdcdc;
+}
+meta.text.selected {
+}
+
+/* Cursor */
+meta.cursor {
+    background-color: #e4f6d4;
+}
+
+/* Indentation Guides */
+meta.indentguide {
+    border-color: #dcdcdc;
+}
+
+/* Gutter */
+meta.gutter {
+    color: #dcdcdc;
+}
+meta.gutter.selected {
+    background-color: #e4f6d4;
+    color: #333;
+}
+
+
+/*
+ * Syntax styles
+ */
+
+keyword {
+    color: #4b83cd;
+}
+comment {
+    color: #aaa;
+}
+processing {
+    color: #aaa;
+}
+declaration {
+    color: #aaa;
+}
+bracket {
+    color: #777;
+}
+operator {
+    color: #777;
+}
+invalid {
+    background-color: rgba(150, 0, 0, .2);
+    color: #600;
+}
+link {
+    color: #4b83cd;
+    text-decoration: underline;
+}
+
+/* Values */
+value.boolean {
+    color: #ab6526;
+}
+value.null {
+    color: #ab6526;
+}
+value.number {
+    color: #ab6526;
+}
+value.entity {
+    color: #ab6526;
+}
+value.symbol {
+    color: #ab6526;
+}
+
+/* Identifiers */
+identifier.type {
+    color: #aa3731;
+}
+identifier.constant {
+    color: #ab6526;
+}
+identifier.global,
+identifier.variable,
+identifier.core.keyword,
+identifier.argument {
+    color: #7a3e9d;
+}
+identifier.property {}
+identifier.decorator {
+    color: #aaa;
+}
+identifier.function,
+identifier.method {
+    color: #aa3731;
+}
+identifier.key {}
+
+/* Strings */
+string {
+    color: #448c27;
+}
+string.key {
+    color: #ab6526;
+}
+string-template {
+    color: #448c27;
+}
+string-template.value {
+    color: #ab6526;
+    font-weight: bold;
+}
+regex {
+    color: #448c27;
+}
+regex.escaped {
+    font-weight: bold;
+}
+cdata {
+    color: #448c27;
+}
+
+/* Markup */
+markup.heading {
+    font-weight: bold;
+}
+markup.line {
+    color: #777;
+}
+markup.bold {
+    font-weight: bold;
+}
+markup.italic {
+    font-style: italic;
+}
+markup.strikethrough {
+    text-decoration: strike-through;
+}
+markup.list.item {
+    color: #448c27;
+}
+markup.code {
+    color: #ab6526;
+}
+/* FIXME: if they fix support for markup.link, use that instead */
+markdown.image.string {
+    color: #4b83cd;
+    text-decoration: underline;
+}
+markdown.image.string.key {
+    color: #448c27;
+}
+
+/* Types */
+definition.class class.name,
+definition.type type.name,
+definition.package package.name,
+definition.enum enum.name,
+definition.union union.name,
+definition.struct struct.name {
+    font-weight: bold;
+    color: #aa3731;
+}
+
+/* Members */
+definition.property property.name,
+definition.function function.name,
+definition.method method.name {
+    color: #aa3731;
+}
+
+/* LEFT OFF (except completed the style styling) */
+/* Tags */
+tag {
+    color: #91b3e0;
+}
+tag.name {
+    color: #4b83cd;
+}
+tag.attribute.value, tag.attribute.media {
+    color: #448c27;
+}
+tag.attribute.value.link {
+    color: #448c27;
+    text-decoration: underline;
+}
+
+/* Styles */
+style.at {
+    color: #7a3e9d;
+    font-weight: bold;
+}
+style.selector {
+    color: #7a3e9d;
+}
+style.selector.element {
+    font-weight: bold;
+}
+style.attribute.name {
+    color: #ab6526;
+}
+style.value {
+    color: #448c27;
+}
