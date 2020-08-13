@@ -144,11 +144,14 @@ string-template.value {
     color: #ab6526;
     font-weight: bold;
 }
+string.escape {
+    color: #ab6526;
+}
 regex {
     color: #448c27;
 }
-regex.escaped {
-    font-weight: bold;
+regex.escape {
+    color: #ab6526;
 }
 cdata {
     color: #448c27;
@@ -203,7 +206,6 @@ definition.method method.name {
     color: #aa3731;
 }
 
-/* LEFT OFF (except completed the style styling) */
 /* Tags */
 tag {
     color: #91b3e0;
