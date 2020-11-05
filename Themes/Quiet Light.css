@@ -65,6 +65,7 @@ meta.gutter.selected {
 
 keyword {
     color: #4b83cd;
+    font-style: italic;
 }
 comment {
     color: #aaa;
@@ -119,10 +120,12 @@ identifier.variable,
 identifier.core.keyword,
 identifier.argument {
     color: #7a3e9d;
+    font-style: italic;
 }
 identifier.property {}
 identifier.decorator {
     color: #aaa;
+    font-style: italic;
 }
 identifier.function,
 identifier.method {
